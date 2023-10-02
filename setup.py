@@ -1,9 +1,6 @@
 import setuptools
 import os
 
-os.getcwd()
-os.chdir('./Documents/Python_Scripts/Mi_paquete')
-
 with open("description.md", "r", encoding="utf-8") as fh:
     long_description = fh.read()
 
